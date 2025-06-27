@@ -53,7 +53,7 @@ export default function CueCard({ cue }: { cue: any }) {
       className="bg-gray-800 text-white p-4 rounded-xl shadow-md"
     >
       <h3 className="text-lg font-bold">{cue.title}</h3>
-      <p className="text-sm text-gray-300"><b>Composer: </b>{cue.composer}</p>
+      <p className="text-sm text-gray-300"><b>composer: </b>{cue.composer}</p>
       <p className="text-sm text-gray-300"><i>{cue.genre}</i></p>
       
       
